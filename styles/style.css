@@ -1,0 +1,18 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+ol,
+ul,
+li {
+  list-style: none;
+}
