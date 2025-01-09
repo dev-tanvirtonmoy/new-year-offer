@@ -196,7 +196,7 @@ header {
   line-height: 32px;
   width: 393px;
 }
-.offer-con article .second-article{
+.offer-con article .second-article {
   font-family: "Inter", serif;
   margin-bottom: 16px;
 }
@@ -206,7 +206,57 @@ header {
 }
 .offer-con > figure {
   padding: 50px;
-  border: 15px solid #F00;
+  border: 15px solid #f00;
   border-radius: 100%;
 }
 /* Offer section style end here */
+
+/* Sale section styles start from here */
+#sale {
+  margin: 120px 0;
+  text-align: center;
+  font-family: "Inter", serif;
+}
+#sale h3 {
+  color: #070211;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+#sale h2 {
+  color: #f00;
+  font-size: 72px;
+  font-weight: 900;
+  font-family: "Merriweather", serif;
+  margin-bottom: 28px;
+}
+#sale h2 span {
+  color: #070211;
+}
+#sale p {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  width: 1068px;
+  margin: 0 auto;
+}
+
+#sale .sale-img {
+  border-radius: 16px 0px 16px 16px;
+  background: #f00;
+  height: 230px;
+  position: relative;
+  margin-top: 600px;
+}
+.sale-img figure{
+  position: absolute;
+}
+.sale-img figure:first-child{
+  top: -400px;
+}
+.sale-img figure:last-child{
+  right: 0;
+  bottom: 300px;
+}
+/* Sale section styles end here */
