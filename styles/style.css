@@ -47,14 +47,40 @@ header {
   width: 632px;
 }
 .banner .sub-title {
-    font-size: 32px;
-    font-weight: 400;
-    margin-bottom: 16px;
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 16px;
 }
 .banner .title {
-    font-size: 72px;
-    font-weight: 900;
-    line-height: 95px;
-    
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 95px;
 }
+
 /* Header section styles end here */
+
+/* Discount section styles start from here */
+#discount {
+  font-family: "Inter", serif;
+  text-align: center;
+  margin: 120px 0;
+}
+#discount > h2 {
+  color: #f00;
+  font-size: 88px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+#discount > h4 {
+  color: #f00;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+#discount > h3 {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+/* Discount section styles end here */
