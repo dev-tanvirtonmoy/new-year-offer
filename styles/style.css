@@ -56,7 +56,6 @@ header {
   font-weight: 900;
   line-height: 95px;
 }
-
 /* Header section styles end here */
 
 /* Discount section styles start from here */
@@ -187,7 +186,7 @@ header {
   font-weight: 900;
   text-transform: capitalize;
   font-family: "Merriweather", serif;
-  margin-bottom: 22px;
+  margin-bottom: 22px;  /* Yeah */
 }
 .offer-con article p {
   color: rgba(7, 2, 17, 0.6);
