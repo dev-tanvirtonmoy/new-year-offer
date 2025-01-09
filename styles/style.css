@@ -305,6 +305,55 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Inter", serif;
+  margin: 120px 0;
 }
-
+#newsl figure {
+  margin-bottom: 40px;
+}
+#newsl article h2 {
+  color: #070211;
+  font-family: "Merriweather", serif;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-bottom: 22px;
+}
+.news-con article p {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  width: 896px;
+  margin-bottom: 48px;
+}
+.news-con form {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.news-con form input {
+  padding: 25px 30px;
+  border-radius: 50px 0 0 50px;
+  border: none;
+  outline: none;
+  height: 72px;
+  width: 648px;
+}
+.news-con form input::placeholder {
+  color: rgba(7, 2, 17, 0.3);
+  font-size: 18px;
+  font-weight: 400;
+}
+.news-con form button {
+  background: #F00;
+  padding: 0 56px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  border: none;
+  border-radius: 0 50px 50px 0;
+  height: 72px;
+}
 /* Newsletter section styles end here */
