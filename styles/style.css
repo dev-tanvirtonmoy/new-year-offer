@@ -346,7 +346,7 @@ header {
   font-weight: 400;
 }
 .news-con form button {
-  background: #F00;
+  background: #f00;
   padding: 0 56px;
   color: #fff;
   font-size: 20px;
@@ -357,3 +357,49 @@ header {
   height: 72px;
 }
 /* Newsletter section styles end here */
+
+/* Footer part styles start from here */
+footer {
+  background: #070211;
+  color: #fff;
+  font-family: "Inter", serif;
+  padding: 120px;
+}
+footer .footer-con article {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-con article > p {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+}
+.link-container .link {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.link p {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+}
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding: 48px 0;
+  margin: 50px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+.copyright {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+}
+/* Footer part styles end here */
