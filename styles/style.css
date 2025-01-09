@@ -84,3 +84,46 @@ header {
   margin-bottom: 48px;
 }
 /* Discount section styles end here */
+
+/* Second Banner section styles start from here */
+#s-banner {
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url(../assets/images/second-banner.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 120px;
+}
+#s-banner article h2 {
+  color: #fff;
+  font-family: "Merriweather", serif;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7.04px;
+  width: 642px;
+}
+#s-banner article p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "Inter", serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 697px;
+  margin: 24px 0;
+}
+#s-banner article button {
+  color: #fff;  
+  font-family: "Inter", serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 16px 32px;
+  background: #111;
+  border: none;
+}
+/* Second Banner section styles end here */
