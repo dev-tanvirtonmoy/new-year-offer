@@ -295,3 +295,11 @@ header {
   margin-bottom: 0;
 }
 /* Portfolio section styles end here */
+
+/* Newsletter section styles start from here */
+#newsl {
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  text-align: center;
+}
+/* Newsletter section styles end here */
