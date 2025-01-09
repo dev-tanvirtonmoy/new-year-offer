@@ -301,5 +301,7 @@ header {
   border-radius: 16px;
   background: rgba(255, 0, 0, 0.05);
   text-align: center;
+  width: 615px;
 }
+
 /* Newsletter section styles end here */
