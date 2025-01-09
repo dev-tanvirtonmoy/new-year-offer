@@ -97,6 +97,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 0 120px;
+  border-radius: 16px;
 }
 #s-banner article h2 {
   color: #fff;
@@ -117,7 +118,7 @@ header {
   margin: 24px 0;
 }
 #s-banner article button {
-  color: #fff;  
+  color: #fff;
   font-family: "Inter", serif;
   font-size: 20px;
   font-weight: 700;
@@ -127,3 +128,42 @@ header {
   border: none;
 }
 /* Second Banner section styles end here */
+
+/* Address section styles start from here */
+#address {
+  height: 480px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Inter", serif;
+  border-radius: 16px;
+  margin: 120px 0;
+}
+#address article p {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+  color: #f00;
+}
+#address article p span {
+  color: #ff0000;
+}
+#address article button {
+  color: #fff;
+  background-color: #f00;
+  border-radius: 8px;
+  padding: 16px 32px;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 48px;
+}
+/* Address section styles end here */
